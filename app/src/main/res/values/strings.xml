@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">BKPMMobileTest</string>
+    <string name="kepada">Kepada</string>
+    <string name="perihal">Perihal</string>
+    <string name="pesan">Pesan</string>
+    <string name="kirim">Kirim</string>
 </resources>
