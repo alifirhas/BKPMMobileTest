@@ -4,4 +4,7 @@
     <string name="perihal">Perihal</string>
     <string name="pesan">Pesan</string>
     <string name="kirim">Kirim</string>
+    <string name="lorem">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce venenatis nisl nisi, vel fringilla ligula fringilla vitae. Donec at maximus nibh. Sed ullamcorper malesuada massa, eget laoreet turpis iaculis eget. In egestas sem a varius rhoncus. Quisque in dapibus velit, scelerisque tempus diam. Fusce egestas nisi sit amet cursus finibus. Cras tincidunt odio id nisl pretium porttitor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec sollicitudin quam nulla, at lobortis ligula mollis et. Suspendisse ut risus a eros sagittis feugiat vitae rhoncus est. Vestibulum porta sollicitudin risus, sit amet dapibus quam posuere mollis.</string>
+
 </resources>
