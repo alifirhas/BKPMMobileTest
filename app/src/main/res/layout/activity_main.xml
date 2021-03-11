@@ -6,48 +6,50 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <LinearLayout
+
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="163dp"
-        tools:layout_editor_absoluteY="111dp">
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="124dp">
 
         <EditText
-            android:id="@+id/kepada"
-            android:autofillHints=""
+            android:id="@+id/name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:hint="@string/kepada" />
+            android:hint="Judul pengingat" />
 
         <EditText
-            android:id="@+id/perihal"
-            android:autofillHints=""
-            android:layout_width="match_parent"
+            android:id="@+id/tanggal"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_below="@id/name"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="@string/perihal" />
+            android:inputType="date" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
-            android:layout_width="match_parent"
-            android:autofillHints=""
-            android:layout_height="0dp"
-            android:layout_weight="1"
+            android:id="@+id/waktu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="-1dp"
+            android:layout_toEndOf="@id/tanggal"
             android:ems="10"
-            android:gravity="top"
-            android:inputType="textPersonName"
-            android:hint="@string/pesan" />
+            android:inputType="time" />
 
         <Button
-            android:id="@+id/kirim"
-            android:layout_width="100dp"
-            android:layout_gravity="end"
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/kirim" />
-
-    </LinearLayout>
+            android:layout_below="@id/waktu"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="14dp"
+            android:text="Button" />
+    </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
